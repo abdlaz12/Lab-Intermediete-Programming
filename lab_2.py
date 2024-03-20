@@ -28,6 +28,10 @@ while kesempatanmu > 0:
     else:
         kesempatanmu -= 1
         print("Semoga kamu beruntung. Kamu ada {} kesempatan lagi.".format(kesempatanmu))
+    if tebak == kata_rahasia:
+        print("Selamat kamu benar. kamu berhasil nyawa kamu ada {}".format(kesempatanmu))
+        break 
+
    
 # kata_rahasia='taik'
 # tebakan=[]
