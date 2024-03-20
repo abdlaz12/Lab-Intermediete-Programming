@@ -2,15 +2,6 @@ kata_rahasia= "software"
 tebakanmu = []
 kesempatanmu = 6
 while kesempatanmu > 0:
-    display = ""
-    for kata in kata_rahasia:
-        if kata.lower() in tebakanmu:
-            display += kata
-        else:
-            display += "_"
-    print(display)
-    if "_" not in display:
-        print("Salamat kamu benar: ", kata_rahasia)
     if kesempatanmu == 0:
         print("Sorry kesempatan kamu dah abis, anjing mu mati: Depo dulu", kata_rahasia)
     
