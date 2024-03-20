@@ -1,6 +1,6 @@
 kata_rahasia= "software"
 tebakanmu = []
-kesempatanmu = 6
+kesempatanmu = 20
 while kesempatanmu > 0:
     if kesempatanmu == 0:
         print("Sorry kesempatan kamu dah abis, anjing mu mati: Depo dulu", kata_rahasia)
