@@ -16,7 +16,7 @@ kesempatanmu = 6
 
 
 while kesempatanmu > 0:
-    tebak = input("Tabaklah kata rahasiaku kawan: ")
+    tebak = input("Tabaklah kata rahasianya kawan: ")
     if len(tebak) != 1:
         print("Masukkan minimal satu huruf")
     elif not tebak.isalpha():
