@@ -166,7 +166,68 @@ class Fraction:
         self._numerator, self._denominator = result._numerator, result._denominator
         return self
     
+# Membuat instance Fraction
+f1 = Fraction(3, 4)
+f2 = Fraction(2, 5)
 
+# Menampilkan instance Fraction
+print(f"f1: {f1}")  # Output: f1: 3/4
+print(f"f2: {f2}")  # Output: f2: 2/5
+
+# Operasi penjumlahan
+f3 = f1 + f2
+print(f"f1 + f2: {f3}")  # Output: f1 + f2: 23/20
+
+# Operasi pengurangan
+f4 = f1 - f2
+print(f"f1 - f2: {f4}")  # Output: f1 - f2: 7/20
+
+# Operasi perkalian
+f5 = f1 * f2
+print(f"f1 * f2: {f5}")  # Output: f1 * f2: 3/10
+
+# Operasi pembagian
+f6 = f1 / f2
+print(f"f1 / f2: {f6}")  # Output: f1 / f2: 15/8
+
+# Operasi pangkat
+f7 = f1 ** 2
+print(f"f1 ** 2: {f7}")  # Output: f1 ** 2: 9/16
+
+# Operasi pembanding
+print(f"f1 == f2: {f1 == f2}")  # Output: f1 == f2: False
+print(f"f1 < f2: {f1 < f2}")    # Output: f1 < f2: False
+print(f"f1 <= f2: {f1 <= f2}")  # Output: f1 <= f2: False
+print(f"f1 > f2: {f1 > f2}")    # Output: f1 > f2: True
+print(f"f1 >= f2: {f1 >= f2}")  # Output: f1 >= f2: True
+
+# Operasi unary
+print(f"-f1: {-f1}")  # Output: -f1: -3/4
+print(f"+f1: {+f1}")  # Output: +f1: 3/4
+print(f"abs(f1): {abs(f1)}")  # Output: abs(f1): 3/4
+
+# Konversi ke tipe lain
+print(f"int(f1): {int(f1)}")  # Output: int(f1): 0
+print(f"float(f1): {float(f1)}")  # Output: float(f1): 0.75
+
+# Operasi augmented assignment
+f1 += f2
+print(f"f1 += f2: {f1}")  # Output: f1 += f2: 23/20
+
+f1 -= f2
+print(f"f1 -= f2: {f1}")  # Output: f1 -= f2: 3/4
+
+f1 *= f2
+print(f"f1 *= f2: {f1}")  # Output: f1 *= f2: 3/10
+
+f1 /= f2
+print(f"f1 /= f2: {f1}")  # Output: f1 /= f2: 3/4
+
+f1 **= 2
+print(f"f1 **= 2: {f1}")  # Output: f1 **= 2: 9/16
+
+print("                                                                                         ")
+print("                                                                                         ")
 
 import random
 
@@ -232,6 +293,8 @@ first_account.deposit(500)
 first_account.withdraw(200)
 first_account.check_balance()
 
+print("                                                                                         ")
+print("                                                                                         ")
 
 class Family:
     def __init__(self, last_name, parents):
